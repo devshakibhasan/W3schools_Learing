@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Cell that spans two rows</h2>
+    <p>To make a cell span than one row, use the rowspan attribute.</p>
+
+    <table style="width: 30%">
+        <tr>
+            <th>Name: </th>
+            <td>Bill gates</td>
+        </tr>
+
+        <tr>
+            <th rowspan="2">Telephone: </th>
+            <td>18784</td>
+        </tr>
+
+        <tr>
+            <td>187859</td>
+        </tr>
+    </table>
+
+</body></html>
